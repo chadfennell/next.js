@@ -11,7 +11,6 @@ var Foo = function Foo() {
 };
 console.log(Foo, [].includes('foo'));
 }}),
-
 "[project]/turbopack/crates/turbopack-tests/tests/snapshot/node_modules/@swc/helpers/_/_class_call_check.js [test] (ecmascript)",
 ((__turbopack_context__) => {
 "use strict";

@@ -12,7 +12,6 @@ env["BARFOO"] = barfoo;
 env["FOO"] = foo;
 env["FOOBAR"] = foobar;
 }}),
-
 "[project]/turbopack/crates/turbopack-tests/tests/snapshot/env/env/input/index.js [test] (ecmascript)",
 ((__turbopack_context__) => {
 

@@ -8,7 +8,6 @@ __turbopack_context__.v((parentImport) => {
     });
 });
 }),
-
 "[project]/turbopack/crates/turbopack-tests/tests/snapshot/css/embed-url/input/style.css [test] (css, async loader)",
 ((__turbopack_context__) => {
 

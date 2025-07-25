@@ -6,12 +6,10 @@ var { m: module, e: exports } = __turbopack_context__;
 {
 module.exports = 'turbopack';
 }}),
-
 "[project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/ignore-comments/input/vercel.cjs (static in ecmascript)",
 ((__turbopack_context__) => {
 
 __turbopack_context__.v("/static/vercel.30936e72.cjs");}),
-
 "[project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/ignore-comments/input/vercel.cjs [test] (ecmascript, worker loader)",
 ((__turbopack_context__) => {
 
@@ -20,12 +18,10 @@ __turbopack_context__.v(__turbopack_context__.b([
   "output/252a3_tests_snapshot_imports_ignore-comments_input_vercel_cjs_18e98be7._.js"
 ]));
 }),
-
 "[project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/ignore-comments/input/ignore-worker.cjs (static in ecmascript)",
 ((__turbopack_context__) => {
 
 __turbopack_context__.v("/static/ignore-worker.c7cb9893.cjs");}),
-
 "[project]/turbopack/crates/turbopack-tests/tests/snapshot/imports/ignore-comments/input/index.js [test] (ecmascript)",
 ((__turbopack_context__) => {
 "use strict";
