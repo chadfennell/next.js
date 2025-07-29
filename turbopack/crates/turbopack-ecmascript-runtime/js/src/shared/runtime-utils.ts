@@ -420,8 +420,14 @@ function installCompressedModuleFactories(
     let moduleId = chunkModules[i] as ModuleId
     let end = i + 1
     // Find our factory function
-    while (typeof chunkModules[end] !== 'function') {
+    while (
+      end < chunkModules.length &&
+      typeof chunkModules[end] !== 'function'
+    ) {
       end++
+    }
+    if (end === chunkModules.length) {
+      throw new Error('malformed chunk format, expected a factory function')
     }
     if (!moduleFactories.has(moduleId)) {
       const moduleFactoryFn = chunkModules[end] as Function
