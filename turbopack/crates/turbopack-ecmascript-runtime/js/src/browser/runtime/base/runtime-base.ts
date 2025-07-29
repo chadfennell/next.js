@@ -174,7 +174,7 @@ async function loadChunkInternal(
     })
     .filter((p) => p)
 
-  let promise
+  let promise: Promise<unknown>
   if (moduleChunksPromises.length > 0) {
     // Some module chunks are already loaded or loading.
 
@@ -251,7 +251,7 @@ function loadChunkByUrlInternal(
       loadedChunk
     )
     entry = thenable.then(resolve).catch((error) => {
-      let loadReason
+      let loadReason: string
       switch (sourceType) {
         case SourceType.Runtime:
           loadReason = `as a runtime dependency of chunk ${sourceData}`
