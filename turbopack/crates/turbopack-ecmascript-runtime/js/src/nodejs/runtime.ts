@@ -23,23 +23,6 @@ type SourceData = ChunkPath | ModuleId
 
 process.env.TURBOPACK = '1'
 
-function stringifySourceInfo(
-  sourceType: SourceType,
-  sourceData: SourceData
-): string {
-  switch (sourceType) {
-    case SourceType.Runtime:
-      return `runtime for chunk ${sourceData}`
-    case SourceType.Parent:
-      return `parent module ${sourceData}`
-    default:
-      invariant(
-        sourceType,
-        (sourceType) => `Unknown source type: ${sourceType}`
-      )
-  }
-}
-
 interface TurbopackNodeBuildContext extends TurbopackBaseContext<Module> {
   R: ResolvePathFromModule
   x: ExternalRequire
@@ -54,7 +37,6 @@ type ModuleFactory = (
 ) => unknown
 
 const url = require('url') as typeof import('url')
-const fs = require('fs/promises') as typeof import('fs/promises')
 
 const moduleFactories: ModuleFactories = new Map()
 nodeContextPrototype.M = moduleFactories
