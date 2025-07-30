@@ -2,7 +2,6 @@ use std::io::Write;
 
 use anyhow::{Result, bail};
 use either::Either;
-use indoc::writedoc;
 use turbo_rcstr::RcStr;
 use turbo_tasks::{ResolvedVc, Vc};
 use turbo_tasks_fs::{File, rope::RopeBuilder};
