@@ -17,7 +17,6 @@ __turbopack_context__.s({
 });
 const prop = 1;
 }),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_f038421b._.js.map

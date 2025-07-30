@@ -10,7 +10,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbo
 ;
 console.log(__TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$imports$2f$static$2f$input$2f$vercel$2e$svg__$28$static__in__ecmascript$29$__["default"]);
 }),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_imports_static_input_89ddd9a2._.js.map

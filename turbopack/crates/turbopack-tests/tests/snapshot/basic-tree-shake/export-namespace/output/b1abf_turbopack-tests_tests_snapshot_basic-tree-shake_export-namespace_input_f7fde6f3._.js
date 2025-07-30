@@ -184,7 +184,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbo
 ;
 console.log(__TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$basic$2d$tree$2d$shake$2f$export$2d$namespace$2f$input$2f$module$2e$js__$5b$test$5d$__$28$ecmascript$29$__$3c$internal__part__0$3e$__["lib"].cat);
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_basic-tree-shake_export-namespace_input_f7fde6f3._.js.map

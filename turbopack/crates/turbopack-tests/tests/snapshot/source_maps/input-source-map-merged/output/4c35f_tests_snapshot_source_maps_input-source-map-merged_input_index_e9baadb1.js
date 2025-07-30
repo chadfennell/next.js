@@ -13,7 +13,6 @@ function runExternalSourceMapped(fn) {
 ;
 runExternalSourceMapped();
 }),
-
 ]);
 
 //# sourceMappingURL=4c35f_tests_snapshot_source_maps_input-source-map-merged_input_index_e9baadb1.js.map

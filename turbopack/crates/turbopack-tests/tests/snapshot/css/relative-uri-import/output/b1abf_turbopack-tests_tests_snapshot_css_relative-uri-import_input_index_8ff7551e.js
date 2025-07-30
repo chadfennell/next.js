@@ -5,7 +5,6 @@
 __turbopack_context__.s({});
 ;
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_css_relative-uri-import_input_index_8ff7551e.js.map

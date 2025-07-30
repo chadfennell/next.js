@@ -17,7 +17,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbo
 ;
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$source_maps$2f$input$2d$source$2d$map$2f$input$2f$sourcemapped$2e$js__$5b$test$5d$__$28$ecmascript$29$__["runExternalSourceMapped"])();
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_source_maps_input-source-map_input_965ec6d6._.js.map

@@ -5,7 +5,6 @@ var { m: module, e: exports } = __turbopack_context__;
 {
 module.exports = 'turbopack';
 }}),
-
 ]);
 
 //# sourceMappingURL=4c35f_tests_snapshot_imports_ignore-comments_input_vercel_cjs_1ec8d7d5._.js.map

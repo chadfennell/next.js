@@ -12,7 +12,6 @@ __turbopack_context__.s({});
 console.log(dne);
 console.log({}[dne]);
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_imports_resolve_error_esm_input_index_4187ef70.js.map

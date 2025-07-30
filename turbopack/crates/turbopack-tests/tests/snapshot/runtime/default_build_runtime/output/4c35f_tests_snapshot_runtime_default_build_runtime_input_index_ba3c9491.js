@@ -5,7 +5,6 @@ var { m: module, e: exports } = __turbopack_context__;
 {
 console.log('Hello, world!');
 }}),
-
 ];
 
 //# sourceMappingURL=4c35f_tests_snapshot_runtime_default_build_runtime_input_index_ba3c9491.js.map

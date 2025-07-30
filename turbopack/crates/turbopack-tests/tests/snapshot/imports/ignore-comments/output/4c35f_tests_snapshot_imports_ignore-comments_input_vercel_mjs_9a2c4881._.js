@@ -7,7 +7,6 @@ __turbopack_context__.s({
 });
 const __TURBOPACK__default__export__ = 'turbopack';
 }),
-
 ]);
 
 //# sourceMappingURL=4c35f_tests_snapshot_imports_ignore-comments_input_vercel_mjs_9a2c4881._.js.map

@@ -45,7 +45,6 @@ function foo(plugin) {
     return require(/* turbopackIgnore: true */ plugin);
 }
 }),
-
 ]);
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_imports_ignore-comments_input_7f940ff3._.js.map

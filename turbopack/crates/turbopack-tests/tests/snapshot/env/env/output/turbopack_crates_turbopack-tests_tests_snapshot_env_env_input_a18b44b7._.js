@@ -19,7 +19,6 @@ console.log(process.env.FOOBAR);
 console.log(process.env.BARFOO);
 console.log(process.env.ALLFOOBAR);
 }}),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_env_env_input_a18b44b7._.js.map

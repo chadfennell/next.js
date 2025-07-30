@@ -32,7 +32,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbo
     console.log('created user John');
 })();
 }),
-
 ]);
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_basic_top-level-await_input_9acd43f4._.js.map

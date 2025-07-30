@@ -55,20 +55,15 @@ impl EcmascriptBuildNodeChunkContent {
 
         let mut code = CodeBuilder::default();
 
-        writedoc!(
-            code,
-            r#"
-                module.exports = [
-            "#,
-        )?;
+        write!(code, "module.exports = [")?;
 
         let content = this.content.await?;
         let chunk_items = content.chunk_item_code_and_ids().await?;
         for item in chunk_items {
             for (id, item_code) in item {
-                write!(code, "{}, ", StringifyJs(&id))?;
+                write!(code, "\n{}, ", StringifyJs(&id))?;
                 code.push_code(item_code);
-                writeln!(code, ",")?;
+                write!(code, ",")?;
             }
         }
 

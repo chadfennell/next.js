@@ -20,7 +20,6 @@ var { m: module, e: exports } = __turbopack_context__;
 "purposefully empty stub";
 "styled-components/index.js";
 }}),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_398e2526._.js.map

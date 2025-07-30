@@ -25,7 +25,6 @@ function getDog() {
     return dog;
 }
 }),
-
 ]);
 
 //# sourceMappingURL=4c35f_tests_snapshot_intermediate-tree-shake_tree-shake-test-1_input_80df1e23._.js.map

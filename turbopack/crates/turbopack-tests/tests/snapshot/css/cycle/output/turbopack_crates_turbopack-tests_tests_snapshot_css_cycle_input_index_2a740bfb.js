@@ -9,7 +9,6 @@ __turbopack_context__.A("[project]/turbopack/crates/turbopack-tests/tests/snapsh
 __turbopack_context__.A("[project]/turbopack/crates/turbopack-tests/tests/snapshot/css/cycle/input/y.css [test] (css, async loader)");
 __turbopack_context__.A("[project]/turbopack/crates/turbopack-tests/tests/snapshot/css/cycle/input/i.css [test] (css, async loader)");
 }}),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_css_cycle_input_index_2a740bfb.js.map

@@ -53,7 +53,6 @@ var { m: module, e: exports } = __turbopack_context__;
 "purposefully empty stub";
 "@emtion/styled/index.js";
 }}),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_6fdc60d8._.js.map

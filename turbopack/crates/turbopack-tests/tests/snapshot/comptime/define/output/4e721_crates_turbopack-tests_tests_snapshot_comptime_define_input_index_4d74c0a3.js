@@ -29,7 +29,6 @@ if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
 ("TURBOPACK compile-time value", "development") == 'production' && console.log('production');
 console.log(("TURBOPACK compile-time value", "/ROOT/turbopack/crates/turbopack-tests/tests/snapshot/comptime/define/input"));
 }}),
-
 ]);
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_comptime_define_input_index_4d74c0a3.js.map

@@ -9,7 +9,6 @@ async function main() {
 }
 main();
 }}),
-
 ]);
 
 //# sourceMappingURL=4c35f_tests_snapshot_basic-tree-shake_dynamic-import_input_index_92a5f455.js.map

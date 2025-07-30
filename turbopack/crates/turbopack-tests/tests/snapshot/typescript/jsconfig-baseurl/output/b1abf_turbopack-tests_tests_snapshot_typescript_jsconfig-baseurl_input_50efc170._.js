@@ -17,7 +17,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbo
 ;
 console.log(__TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$typescript$2f$jsconfig$2d$baseurl$2f$input$2f$prop$2e$js__$5b$test$5d$__$28$ecmascript$29$__["prop"], __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$typescript$2f$jsconfig$2d$baseurl$2f$input$2f$prop$2e$js__$5b$test$5d$__$28$ecmascript$29$__["prop"], __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$typescript$2f$jsconfig$2d$baseurl$2f$input$2f$prop$2e$js__$5b$test$5d$__$28$ecmascript$29$__["prop"]);
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_typescript_jsconfig-baseurl_input_50efc170._.js.map

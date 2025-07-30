@@ -22,7 +22,6 @@ function spawn(cmd, args) {
 //
 }
 }),
-
 ]);
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_node_spawn_dynamic_input_d33fdf1c._.js.map

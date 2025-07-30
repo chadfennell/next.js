@@ -27,7 +27,6 @@ __turbopack_context__.v({
   "foo-module-style": "style-module__CEkn7G__foo-module-style",
 });
 }),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_css_css_input_6dc4af09._.js.map

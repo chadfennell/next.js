@@ -76,7 +76,6 @@ if (Date.now() > 0) {
     __turbopack_context__.r("[project]/turbopack/crates/turbopack-tests/tests/snapshot/source_maps/merged-unicode/input/index2.js [test] (ecmascript)");
 }
 }}),
-
 ]);
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_source_maps_merged-unicode_input_795dc95a._.js.map

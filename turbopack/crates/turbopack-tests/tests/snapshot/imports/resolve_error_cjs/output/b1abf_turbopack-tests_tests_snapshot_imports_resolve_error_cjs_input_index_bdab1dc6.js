@@ -10,7 +10,6 @@ const dne = (()=>{
 })();
 console.log(dne);
 }}),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_imports_resolve_error_cjs_input_index_bdab1dc6.js.map

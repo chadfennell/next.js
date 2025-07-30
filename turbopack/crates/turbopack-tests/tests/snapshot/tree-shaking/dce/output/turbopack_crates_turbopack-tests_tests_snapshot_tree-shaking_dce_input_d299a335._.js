@@ -14,7 +14,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbo
 if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
 ;
 }),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_tree-shaking_dce_input_d299a335._.js.map

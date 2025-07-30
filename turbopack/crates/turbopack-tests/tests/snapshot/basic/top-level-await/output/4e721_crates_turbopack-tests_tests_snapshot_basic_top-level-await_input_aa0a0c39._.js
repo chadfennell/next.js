@@ -48,7 +48,6 @@ const createUser = async (name)=>{
 };
 __turbopack_async_result__();
 } catch(e) { __turbopack_async_result__(e); } }, false);}),
-
 ]);
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_basic_top-level-await_input_aa0a0c39._.js.map

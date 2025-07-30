@@ -17,7 +17,6 @@ function foo(value) {
     console.assert(value);
 }
 }),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_basic_chunked_input_1efdaca0._.js.map

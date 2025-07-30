@@ -27,7 +27,6 @@ __turbopack_context__.s({
 });
 const bar = 'bar';
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_typescript_tsconfig-baseurl_input_88264193._.js.map

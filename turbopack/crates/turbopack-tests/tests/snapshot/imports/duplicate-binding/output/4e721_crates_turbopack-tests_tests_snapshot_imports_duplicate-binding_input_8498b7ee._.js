@@ -21,7 +21,6 @@ function Table() {
     console.log(__TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$imports$2f$duplicate$2d$binding$2f$input$2f$table$2e$js__$5b$test$5d$__$28$ecmascript$29$__["Table"]);
 }
 }),
-
 ]);
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_imports_duplicate-binding_input_8498b7ee._.js.map

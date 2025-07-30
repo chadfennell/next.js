@@ -47,7 +47,6 @@ function ThirdPartyComponent() {
     return <div>Should not be transformed</div>;
 }
 }),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_b56e07c9._.js.map

@@ -76,7 +76,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbo
 ;
 console.log(__TURBOPACK__imported__module__$5b$project$5d2f$turbopack$2f$crates$2f$turbopack$2d$tests$2f$tests$2f$snapshot$2f$basic$2d$tree$2d$shake$2f$import$2d$named$2f$input$2f$lib$2e$js__$5b$test$5d$__$28$ecmascript$29$__$3c$internal__part__8$3e$__["cat"]);
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_basic-tree-shake_import-named_input_f64e7412._.js.map

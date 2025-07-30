@@ -20,7 +20,6 @@ function _() {
     return 'purposefully empty stub for @swc/helpers/_/_class_call_check.js';
 }
 }),
-
 ]);
 
 //# sourceMappingURL=turbopack_crates_turbopack-tests_tests_snapshot_bff03a32._.js.map

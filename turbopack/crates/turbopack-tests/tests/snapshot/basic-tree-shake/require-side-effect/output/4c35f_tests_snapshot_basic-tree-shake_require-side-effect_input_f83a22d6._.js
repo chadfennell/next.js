@@ -181,7 +181,6 @@ var { m: module, e: exports } = __turbopack_context__;
 {
 const { cat } = __turbopack_context__.r("[project]/turbopack/crates/turbopack-tests/tests/snapshot/basic-tree-shake/require-side-effect/input/lib.js [test] (ecmascript)");
 }}),
-
 ]);
 
 //# sourceMappingURL=4c35f_tests_snapshot_basic-tree-shake_require-side-effect_input_f83a22d6._.js.map

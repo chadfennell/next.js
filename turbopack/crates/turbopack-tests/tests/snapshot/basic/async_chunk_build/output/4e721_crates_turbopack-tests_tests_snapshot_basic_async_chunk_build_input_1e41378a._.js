@@ -28,7 +28,6 @@ function bar(value) {
     console.assert(value);
 }
 }),
-
 ];
 
 //# sourceMappingURL=4e721_crates_turbopack-tests_tests_snapshot_basic_async_chunk_build_input_1e41378a._.js.map

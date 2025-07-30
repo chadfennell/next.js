@@ -42,7 +42,6 @@ __turbopack_context__.v((parentImport) => {
     });
 });
 }),
-
 ]);
 
 //# sourceMappingURL=b1abf_turbopack-tests_tests_snapshot_scope-hoisting_split-shared_input_d89f123b._.js.map
