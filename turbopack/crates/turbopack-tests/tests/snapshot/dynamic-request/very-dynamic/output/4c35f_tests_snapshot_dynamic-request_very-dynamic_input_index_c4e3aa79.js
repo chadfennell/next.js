@@ -1,6 +1,5 @@
 (globalThis.TURBOPACK ||= []).push(["output/4c35f_tests_snapshot_dynamic-request_very-dynamic_input_index_c4e3aa79.js",
-"[project]/turbopack/crates/turbopack-tests/tests/snapshot/dynamic-request/very-dynamic/input/index.js [test] (ecmascript)",
-((__turbopack_context__) => {
+"[project]/turbopack/crates/turbopack-tests/tests/snapshot/dynamic-request/very-dynamic/input/index.js [test] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s({});
@@ -33,7 +32,8 @@ Promise.resolve().then(()=>{
 __TURBOPACK__url__external__node$3a$fs__["default"].readFileSync(unknown);
 (0, __TURBOPACK__url__external__node$3a$fs__["readFileSync"])(unknown);
 new URL(unknown, __TURBOPACK__import$2e$meta__.url);
-})
+}),
+
 ]);
 
 //# sourceMappingURL=4c35f_tests_snapshot_dynamic-request_very-dynamic_input_index_c4e3aa79.js.map

@@ -283,8 +283,11 @@ function installCompressedModuleFactories(chunkModules, offset, moduleFactories,
         let moduleId = chunkModules[i];
         let end = i + 1;
         // Find our factory function
-        while(typeof chunkModules[end] !== 'function'){
+        while(end < chunkModules.length && typeof chunkModules[end] !== 'function'){
             end++;
+        }
+        if (end === chunkModules.length) {
+            throw new Error('malformed chunk format, expected a factory function');
         }
         if (!moduleFactories.has(moduleId)) {
             const moduleFactoryFn = chunkModules[end];
@@ -1770,8 +1773,8 @@ const chunksToRegister = globalThis.TURBOPACK;
 globalThis.TURBOPACK = { push: registerChunk };
 chunksToRegister.forEach(registerChunk);
 const chunkListsToRegister = globalThis.TURBOPACK_CHUNK_LISTS || [];
-chunkListsToRegister.forEach(registerChunkList);
 globalThis.TURBOPACK_CHUNK_LISTS = { push: registerChunkList };
+chunkListsToRegister.forEach(registerChunkList);
 })();
 
 

@@ -92,5 +92,6 @@ function registerChunk(registration: ChunkRegistration) {
       moduleFactories
     )
   }
+
   return BACKEND.registerChunk(chunkPath, runtimeParams)
 }

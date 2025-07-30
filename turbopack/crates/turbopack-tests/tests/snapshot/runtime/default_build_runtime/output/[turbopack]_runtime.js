@@ -273,8 +273,11 @@ function installCompressedModuleFactories(chunkModules, offset, moduleFactories,
         let moduleId = chunkModules[i];
         let end = i + 1;
         // Find our factory function
-        while(typeof chunkModules[end] !== 'function'){
+        while(end < chunkModules.length && typeof chunkModules[end] !== 'function'){
             end++;
+        }
+        if (end === chunkModules.length) {
+            throw new Error('malformed chunk format, expected a factory function');
         }
         if (!moduleFactories.has(moduleId)) {
             const moduleFactoryFn = chunkModules[end];
@@ -527,19 +530,8 @@ var SourceType = /*#__PURE__*/ function(SourceType) {
     return SourceType;
 }(SourceType || {});
 process.env.TURBOPACK = '1';
-function stringifySourceInfo(sourceType, sourceData) {
-    switch(sourceType){
-        case 0:
-            return `runtime for chunk ${sourceData}`;
-        case 1:
-            return `parent module ${sourceData}`;
-        default:
-            invariant(sourceType, (sourceType)=>`Unknown source type: ${sourceType}`);
-    }
-}
 const nodeContextPrototype = Context.prototype;
 const url = require('url');
-const fs = require('fs/promises');
 const moduleFactories = new Map();
 nodeContextPrototype.M = moduleFactories;
 const moduleCache = Object.create(null);

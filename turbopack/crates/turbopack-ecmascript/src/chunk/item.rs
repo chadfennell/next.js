@@ -100,7 +100,7 @@ impl EcmascriptChunkItemContent {
 
         let mut code = CodeBuilder::default();
         for additional_id in self.additional_ids.iter().try_join().await? {
-            writeln!(code, "{},\n", StringifyJs(&*additional_id))?;
+            writeln!(code, "{}, ", StringifyJs(&*additional_id))?;
         }
         code += "((__turbopack_context__) => {\n";
         if self.options.strict {
